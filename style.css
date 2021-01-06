@@ -1,0 +1,96 @@
+.navbar-brand img {
+    margin: 30px 30px 20px 70px;
+}
+
+
+
+h2.judul {
+    font-family: 'Alegreya', serif;
+    font-size: 28px;
+    color: #19212C;
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+
+
+p.subjudul {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #868B90;
+    margin-left: 120px;
+}
+
+
+/* form */
+.kiri .container {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #FFFFFF;
+    width: 490px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+form .form-label {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #868B90;
+}
+
+form .form-control {
+    border-radius: 12px;
+}
+
+.kanan {
+    background-color: #4424A7;
+    position: relative;
+}
+
+.kanan img.bingkaiatas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.kanan img.bingkaibawah {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.carousel-caption p {
+    font-family: Helvetica, sans-serif;
+    color: #B7A9E3;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .kiri .container {
+        padding-left: auto;
+        width: 350px;
+    }
+
+    p.subjudul {
+        margin-left: 10px;
+    }
+
+    h2.judul {
+        margin-left: 10px;
+    }
+
+    .navbar-brand img {
+        margin-left: 10px;
+    }
+}
+
+/* 
+
+
+
+
+  
